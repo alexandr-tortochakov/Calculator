@@ -15,9 +15,6 @@ public class Calculator {
     }
 
     public double division (double firstNumber, double secondNumber) {
-        if (secondNumber == 0) {
-            throw new IllegalArgumentException("Делить на ноль нельзя");
-        }
         return firstNumber/secondNumber;
     }
 }
